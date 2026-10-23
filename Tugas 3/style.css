@@ -1,0 +1,139 @@
+
+/* Warna dan tulisan utama */
+body {
+    background-color: #fff0f5;
+    color: #70445b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Kotak website */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid #edbad0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Bagian atas */
+header {
+    background-color: #f6c9dc;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Menu navigasi: Flexbox */
+nav {
+    background-color: #fff8fb;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #a34e77;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d45d91;
+}
+
+/* Konten: CSS Grid */
+section {
+    background-color: #fff0f5;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+/* Konten utama */
+article {
+    background-color: white;
+    border: 1px solid #edbad0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #a34e77;
+}
+
+p {
+    line-height: 1.7;
+}
+
+/* Informasi samping */
+aside {
+    background-color: #ffe3ee;
+    border: 1px solid #edbad0;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+/* Tombol */
+.tombol {
+    display: inline-block;
+    background-color: #d98caf;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Foto profil */
+.foto {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid #f6c9dc;
+    border-radius: 12px;
+}
+
+/* Galeri foto: CSS Grid */
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+
+.galeri img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #f6c9dc;
+}
+
+/* Tabel biodata */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #edbad0;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff0f5;
+}
+
+/* Bagian bawah */
+footer {
+    background-color: #d98caf;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/
